@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       right: 0; }
   .ftco-cover .ftco-vh-100 {
-    min-height: 700px !important; }
+    min-height: 600px !important; }
 
 .ftco-slant {
   position: relative;
@@ -391,7 +391,7 @@ textarea.form-control {
   .ftco-footer .ftco-heading {
     font-size: 24px; }
   .ftco-footer .ftco-heading-2 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: .05em;
     text-transform: uppercase;
@@ -526,8 +526,8 @@ textarea.form-control {
     opacity: 1; }
 
 #map {
-  height: 400px;
-  width: 100%; }
+  height: auto;
+  max-width: 100%; }
   @media screen and (max-width: 768px) {
     #map {
       height: 300px; } }
