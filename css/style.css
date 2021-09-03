@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5,
     font-family: "Raleway", sans-serif; }
   @media screen and (max-width: 768px) {
     .ftco-cover .btn {
-      width: 100% !important;
+      width: 80% !important;
       border: 1px solid red; } }
   .ftco-cover a {
     position: relative;
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       right: 0; }
   .ftco-cover .ftco-vh-100 {
-    min-height: 700px !important; }
+    min-height: 600px !important; }
 
 .ftco-slant {
   position: relative;
@@ -570,7 +570,15 @@ textarea.form-control {
         padding-left: 0 !important;
         margin-left: 15px;
         margin-right: 15px;
-        overflow: hidden; } }
+        overflow: hidden; }
+        @media screen and (max-width: 768px) {
+          #reservationModal .modal-content .bg-image, #reservationModal .modal-content .ftco-cover {
+            height: 150px;
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            margin-left: 15px;
+            margin-right: 15px;
+            overflow: hidden; } }
 
 .image-popup {
   cursor: -webkit-zoom-in;
