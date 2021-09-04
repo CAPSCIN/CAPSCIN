@@ -134,7 +134,10 @@ h1, h2, h3, h4, h5,
   letter-spacing: .1em; }
 
 .bg-image, .ftco-cover {
-  background-size: cover;
+  background-image: url(images/bg_3.png);
+  background-position: center center;
+  background-size: cover cover;
+  background-attachment: fixed;
   background-repeat: no-repeat; }
 
 .ftco-cover {
