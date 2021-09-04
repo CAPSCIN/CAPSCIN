@@ -8,6 +8,11 @@ body {
   line-height: 1.6;
   color: #b8b8b8; }
 
+   iframe {width:100%; height:100%;}
+  .h_iframe {
+      height: 100%; width:100%;
+  }
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -527,7 +532,7 @@ textarea.form-control {
 
 #map {
   height: auto auto;
-  min-width: 80%; }
+  min-width: 100%; }
 
   @media screen and (max-width: 768px) {
     #map {
