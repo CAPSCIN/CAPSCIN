@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5,
     top: 0;
     margin-top: -130px;
     background: #fff !important; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 479px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
         border-radius: 0px;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5,
     font-size: 75px;
     line-height: 1.34;
     color: #fff; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 479px) {
       body{
       background-image: url(images/bg_3mobile.png);  
       }
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5,
     color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
     font-family: "Raleway", sans-serif; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 479px) {
     .ftco-cover .btn {
       width: 100% !important;
       border: 1px solid red; } }
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5,
     @media screen and (max-width: 960px) {
       .ftco-slant:after {
         bottom: -150px; } }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 479px) {
       .ftco-slant:after {
         bottom: -170px; } }
   .ftco-slant.ftco-slant-white:after {
@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5,
     font-family: "Playfair Display", serif;
     font-size: 24px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 479px) {
   .display-4 {
     font-size: 37px; } }
 
@@ -371,7 +371,7 @@ textarea.form-control {
   #section-about .img {
     position: absolute;
     right: 0; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 479px) {
       #section-about .img {
         position: relative;
         right: inherit; }
@@ -541,7 +541,7 @@ textarea.form-control {
   height: auto auto;
   min-width: 100%; }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 479px) {
     #map {
       height: 400px; } }
 
