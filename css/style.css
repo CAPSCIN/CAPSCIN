@@ -149,8 +149,8 @@ h1, h2, h3, h4, h5,
 
     @media screen and (max-width: 768px) {
       .ftco-cover .ftco-heading {
-        font-size: 30px;
-        line-height: 1; }
+        font-size: 32px;
+        line-height: 1.1; }
         .bg-image, .ftco-cover {
           background-image: url('images/bg_3mobile.png');
           background-position: center center;
