@@ -149,8 +149,8 @@ h1, h2, h3, h4, h5,
 
     @media screen and (max-width: 768px) {
       .ftco-cover .ftco-heading {
-        font-size: 35px;
-        line-height: 1.2; }
+        font-size: 30px;
+        line-height: 1; }
         .bg-image, .ftco-cover {
           background-image: url('images/bg_3mobile.png');
           background-position: center center;
@@ -158,6 +158,18 @@ h1, h2, h3, h4, h5,
           background-attachment: fixed;
           background-repeat: no-repeat; }
        }
+
+       @media screen and (max-width: 360px) {
+         .ftco-cover .ftco-heading {
+           font-size: 25px;
+           line-height: .8; }
+           .bg-image, .ftco-cover {
+             background-image: url('images/bg_3mobile.png');
+             background-position: center center;
+             background-size: cover;
+             background-attachment: fixed;
+             background-repeat: no-repeat; }
+          }
 
   .ftco-cover .ftco-subheading, .ftco-cover p {
     color: rgba(255, 255, 255, 0.7);
